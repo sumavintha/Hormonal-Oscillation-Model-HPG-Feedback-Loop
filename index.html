@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscillation Model</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> <!-- Plotly.js for charting -->
+</head>
+<body>
+
+    <!-- Title -->
+    <h1>Oscillation Model</h1>
+
+    <!-- Description -->
+    <div id="description">
+        <p>
+            This simulation visualizes the dynamic interactions between three biological systems: 
+        the Hypothalamus, Pituitary, and Gonads. These systems form a feedback loop that 
+        governs hormonal oscillations in the body. The parameter <strong>n</strong> represents 
+        the sensitivity of the feedback mechanism, controlling how sharply the system responds 
+        to changes in gonadal hormone levels. Adjust the <strong>n</strong> value using the slider 
+        below to observe its effect on the oscillation patterns.
+        </p>
+    </div>
+
+    <!-- Slider to control 'n' -->
+    <label for="nSlider">Select n value:</label>
+    <input type="range" id="nSlider" min="1" max="10" value="5" step="1">
+    <span id="nValue">5</span>
+
+    <!-- Plot Area -->
+    <div id="plot"></div>
+
+    <!-- Footer -->
+    <footer>
+        Created by Suma Vintha
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>

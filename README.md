@@ -19,7 +19,7 @@ This interactive model simulates hormonal oscillations in the Hypothalamus–Pit
 -  Designed for learning systems biology & feedback dynamics
 
 ## Simulation 
-[Open the simulation](https://sumavintha.github.io/oscillation-model/)
+[Open the simulation](https://sumavintha.github.io/Hormonal-Oscillation-Model-HPG-Feedback-Loop/)
 
 ## Technologies Used
 - HTML, CSS, JavaScript
